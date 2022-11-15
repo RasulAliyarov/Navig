@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    width: 1024px;
+
+.container {
+    width: 1118px;
 }
+
 header {
     background-color: #DDFBDC;
     width: 100%;
@@ -50,63 +52,96 @@ header {
     background: url(/img/pngwing\ 1.png) no-repeat;
     height: 100vh;
     background-size: contain;
-    
+
 }
-.header_content_wrapper{
+
+.header_content_wrapper {
     margin-top: 163px;
 }
-.header_content_title{
+
+.media {
+    margin-top: 163px 0 0 0;
+
+}
+
+.content_title {
     color: #455A64;
     font-size: 42px;
     font-weight: 700;
     width: 414px;
-    margin-top: 163px 0 0 0;
 }
 
-.header_content_text{
+.content_text {
     color: #535359;
     font-size: 17;
     font-weight: 500;
     width: 449px;
 }
 
-.learnmore_btn{
+.learnmore_btn {
     background-color: #456A76;
     color: #fff;
 }
-.header_content span{
-color: #455A64;
-font-weight: 700;
+
+.header_content span {
+    color: #455A64;
+    font-weight: 700;
 }
-.seealmo_text{
+
+.seealmo_text {
     margin-left: 10px;
 }
 
 
 /* --------------Blocks-------------------- */
-.features{
+.features {
     margin-top: 56px;
 }
-.func_block{
+
+.func_block {
     background-color: #DDFBDC;
     border-radius: 13px;
     width: 337px;
     height: 290px;
-    margin-right:50px ;
+    margin-right: 50px;
 }
-.func_block:last-child{
+
+.func_block:last-child {
 
     margin-right: 0;
 }
 
 
-.func_block_img{
+.func_block_img {
     margin-top: 46px;
 }
 
-.func_block_title{
+.func_block_title {
     margin-top: 18px;
 }
-.func_block_text{
+
+.func_block_text {
     width: 278px;
+}
+
+
+/* --------------Share--------------------- */
+.shares {
+    margin-top: 127px;
+}
+
+
+.content_title{
+    width: 427px;
+}
+.shares_img {
+    position: relative;
+
+}
+
+.share_img_block {
+    position: absolute;
+    top: 43px;
+    left: 279px;
+    
 }
