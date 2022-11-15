@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+.container{
+    width: 1024px;
+}
 header {
     background-color: #DDFBDC;
     width: 100%;
-    height: 100vh;
+    height: 738px;
 }
 
 .top_header {
@@ -47,6 +49,7 @@ header {
 .header_content {
     background: url(/img/pngwing\ 1.png) no-repeat;
     height: 100vh;
+    background-size: contain;
     
 }
 .header_content_wrapper{
@@ -77,4 +80,33 @@ font-weight: 700;
 }
 .seealmo_text{
     margin-left: 10px;
+}
+
+
+/* --------------Blocks-------------------- */
+.features{
+    margin-top: 56px;
+}
+.func_block{
+    background-color: #DDFBDC;
+    border-radius: 13px;
+    width: 337px;
+    height: 290px;
+    margin-right:50px ;
+}
+.func_block:last-child{
+
+    margin-right: 0;
+}
+
+
+.func_block_img{
+    margin-top: 46px;
+}
+
+.func_block_title{
+    margin-top: 18px;
+}
+.func_block_text{
+    width: 278px;
 }
