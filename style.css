@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #DDFBDC;
+    width: 100%;
+    height: 100vh;
+}
+
+.top_header {
+    padding-top: 35px;
+}
+
+.start_btn {
+    width: 118px;
+    height: 31px;
+    border: 3px solid #456A76;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.links>ul>li {
+    list-style: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.links>ul>li>img {
+    width: 6px;
+    height: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ----------Header Content------------ */
+.header_content {
+    background: url(/img/pngwing\ 1.png) no-repeat;
+    height: 100vh;
+    
+}
+.header_content_wrapper{
+    margin-top: 163px;
+}
+.header_content_title{
+    color: #455A64;
+    font-size: 42px;
+    font-weight: 700;
+    width: 414px;
+    margin-top: 163px 0 0 0;
+}
+
+.header_content_text{
+    color: #535359;
+    font-size: 17;
+    font-weight: 500;
+    width: 449px;
+}
+
+.learnmore_btn{
+    background-color: #456A76;
+    color: #fff;
+}
+.header_content span{
+color: #455A64;
+font-weight: 700;
+}
+.seealmo_text{
+    margin-left: 10px;
+}
